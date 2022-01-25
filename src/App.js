@@ -2,7 +2,7 @@ import './App.css';
 import io from 'socket.io-client'
 import React, { useState } from 'react'
 import Chat from './Chat';
-const socket = io.connect('https://chat-fb-client.herokuapp.com/');
+const socket = io.connect('https://chat-server-fb.herokuapp.com/');
 
 
 function App() {
